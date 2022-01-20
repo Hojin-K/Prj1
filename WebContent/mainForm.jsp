@@ -14,7 +14,7 @@
 <body>
 <h3>mainForm.jsp</h3>
 
-<b> <font size="3" color="skyblue">메인화면입니다.</font></b> <br /><br />
+<b> <font size="3" color="skyblue">어서오세요 메인입니다.</font></b> <br /><br />
 <%
 	if(session.getAttribute("sessionID")==null){ // 로그인이 안 된 상태
 		response.sendRedirect("login/loginForm.jsp");
